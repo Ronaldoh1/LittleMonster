@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F25C8C7A1C48CA1400EC103A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25C8C791C48CA1400EC103A /* AppDelegate.swift */; };
+		F25C8C7C1C48CA1400EC103A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25C8C7B1C48CA1400EC103A /* ViewController.swift */; };
+		F25C8C7F1C48CA1400EC103A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25C8C7D1C48CA1400EC103A /* Main.storyboard */; };
+		F25C8C811C48CA1400EC103A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F25C8C801C48CA1400EC103A /* Assets.xcassets */; };
+		F25C8C841C48CA1400EC103A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25C8C821C48CA1400EC103A /* LaunchScreen.storyboard */; };
+		F25C8C8F1C48CA1400EC103A /* LittleMonsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25C8C8E1C48CA1400EC103A /* LittleMonsterTests.swift */; };
+		F25C8C9A1C48CA1400EC103A /* LittleMonsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25C8C991C48CA1400EC103A /* LittleMonsterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F25C8C8B1C48CA1400EC103A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F25C8C6E1C48CA1400EC103A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F25C8C751C48CA1400EC103A;
+			remoteInfo = LittleMonster;
+		};
+		F25C8C961C48CA1400EC103A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F25C8C6E1C48CA1400EC103A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F25C8C751C48CA1400EC103A;
+			remoteInfo = LittleMonster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F25C8C761C48CA1400EC103A /* LittleMonster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleMonster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25C8C791C48CA1400EC103A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F25C8C7B1C48CA1400EC103A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F25C8C7E1C48CA1400EC103A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F25C8C801C48CA1400EC103A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F25C8C831C48CA1400EC103A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F25C8C851C48CA1400EC103A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25C8C8A1C48CA1400EC103A /* LittleMonsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleMonsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25C8C8E1C48CA1400EC103A /* LittleMonsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleMonsterTests.swift; sourceTree = "<group>"; };
+		F25C8C901C48CA1400EC103A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25C8C951C48CA1400EC103A /* LittleMonsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleMonsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25C8C991C48CA1400EC103A /* LittleMonsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleMonsterUITests.swift; sourceTree = "<group>"; };
+		F25C8C9B1C48CA1400EC103A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F25C8C731C48CA1400EC103A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25C8C871C48CA1400EC103A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25C8C921C48CA1400EC103A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F25C8C6D1C48CA1400EC103A = {
+			isa = PBXGroup;
+			children = (
+				F25C8C781C48CA1400EC103A /* LittleMonster */,
+				F25C8C8D1C48CA1400EC103A /* LittleMonsterTests */,
+				F25C8C981C48CA1400EC103A /* LittleMonsterUITests */,
+				F25C8C771C48CA1400EC103A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F25C8C771C48CA1400EC103A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F25C8C761C48CA1400EC103A /* LittleMonster.app */,
+				F25C8C8A1C48CA1400EC103A /* LittleMonsterTests.xctest */,
+				F25C8C951C48CA1400EC103A /* LittleMonsterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F25C8C781C48CA1400EC103A /* LittleMonster */ = {
+			isa = PBXGroup;
+			children = (
+				F25C8C791C48CA1400EC103A /* AppDelegate.swift */,
+				F25C8C7B1C48CA1400EC103A /* ViewController.swift */,
+				F25C8C7D1C48CA1400EC103A /* Main.storyboard */,
+				F25C8C801C48CA1400EC103A /* Assets.xcassets */,
+				F25C8C821C48CA1400EC103A /* LaunchScreen.storyboard */,
+				F25C8C851C48CA1400EC103A /* Info.plist */,
+			);
+			path = LittleMonster;
+			sourceTree = "<group>";
+		};
+		F25C8C8D1C48CA1400EC103A /* LittleMonsterTests */ = {
+			isa = PBXGroup;
+			children = (
+				F25C8C8E1C48CA1400EC103A /* LittleMonsterTests.swift */,
+				F25C8C901C48CA1400EC103A /* Info.plist */,
+			);
+			path = LittleMonsterTests;
+			sourceTree = "<group>";
+		};
+		F25C8C981C48CA1400EC103A /* LittleMonsterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F25C8C991C48CA1400EC103A /* LittleMonsterUITests.swift */,
+				F25C8C9B1C48CA1400EC103A /* Info.plist */,
+			);
+			path = LittleMonsterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F25C8C751C48CA1400EC103A /* LittleMonster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25C8C9E1C48CA1400EC103A /* Build configuration list for PBXNativeTarget "LittleMonster" */;
+			buildPhases = (
+				F25C8C721C48CA1400EC103A /* Sources */,
+				F25C8C731C48CA1400EC103A /* Frameworks */,
+				F25C8C741C48CA1400EC103A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleMonster;
+			productName = LittleMonster;
+			productReference = F25C8C761C48CA1400EC103A /* LittleMonster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F25C8C891C48CA1400EC103A /* LittleMonsterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25C8CA11C48CA1400EC103A /* Build configuration list for PBXNativeTarget "LittleMonsterTests" */;
+			buildPhases = (
+				F25C8C861C48CA1400EC103A /* Sources */,
+				F25C8C871C48CA1400EC103A /* Frameworks */,
+				F25C8C881C48CA1400EC103A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F25C8C8C1C48CA1400EC103A /* PBXTargetDependency */,
+			);
+			name = LittleMonsterTests;
+			productName = LittleMonsterTests;
+			productReference = F25C8C8A1C48CA1400EC103A /* LittleMonsterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F25C8C941C48CA1400EC103A /* LittleMonsterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25C8CA41C48CA1400EC103A /* Build configuration list for PBXNativeTarget "LittleMonsterUITests" */;
+			buildPhases = (
+				F25C8C911C48CA1400EC103A /* Sources */,
+				F25C8C921C48CA1400EC103A /* Frameworks */,
+				F25C8C931C48CA1400EC103A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F25C8C971C48CA1400EC103A /* PBXTargetDependency */,
+			);
+			name = LittleMonsterUITests;
+			productName = LittleMonsterUITests;
+			productReference = F25C8C951C48CA1400EC103A /* LittleMonsterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F25C8C6E1C48CA1400EC103A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HardCoders;
+				TargetAttributes = {
+					F25C8C751C48CA1400EC103A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F25C8C891C48CA1400EC103A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F25C8C751C48CA1400EC103A;
+					};
+					F25C8C941C48CA1400EC103A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F25C8C751C48CA1400EC103A;
+					};
+				};
+			};
+			buildConfigurationList = F25C8C711C48CA1400EC103A /* Build configuration list for PBXProject "LittleMonster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F25C8C6D1C48CA1400EC103A;
+			productRefGroup = F25C8C771C48CA1400EC103A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F25C8C751C48CA1400EC103A /* LittleMonster */,
+				F25C8C891C48CA1400EC103A /* LittleMonsterTests */,
+				F25C8C941C48CA1400EC103A /* LittleMonsterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F25C8C741C48CA1400EC103A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25C8C841C48CA1400EC103A /* LaunchScreen.storyboard in Resources */,
+				F25C8C811C48CA1400EC103A /* Assets.xcassets in Resources */,
+				F25C8C7F1C48CA1400EC103A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25C8C881C48CA1400EC103A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25C8C931C48CA1400EC103A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F25C8C721C48CA1400EC103A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25C8C7C1C48CA1400EC103A /* ViewController.swift in Sources */,
+				F25C8C7A1C48CA1400EC103A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25C8C861C48CA1400EC103A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25C8C8F1C48CA1400EC103A /* LittleMonsterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25C8C911C48CA1400EC103A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25C8C9A1C48CA1400EC103A /* LittleMonsterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F25C8C8C1C48CA1400EC103A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F25C8C751C48CA1400EC103A /* LittleMonster */;
+			targetProxy = F25C8C8B1C48CA1400EC103A /* PBXContainerItemProxy */;
+		};
+		F25C8C971C48CA1400EC103A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F25C8C751C48CA1400EC103A /* LittleMonster */;
+			targetProxy = F25C8C961C48CA1400EC103A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F25C8C7D1C48CA1400EC103A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F25C8C7E1C48CA1400EC103A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F25C8C821C48CA1400EC103A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F25C8C831C48CA1400EC103A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F25C8C9C1C48CA1400EC103A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F25C8C9D1C48CA1400EC103A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F25C8C9F1C48CA1400EC103A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LittleMonster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HardCoders.LittleMonster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F25C8CA01C48CA1400EC103A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LittleMonster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HardCoders.LittleMonster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F25C8CA21C48CA1400EC103A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LittleMonsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HardCoders.LittleMonsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleMonster.app/LittleMonster";
+			};
+			name = Debug;
+		};
+		F25C8CA31C48CA1400EC103A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LittleMonsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HardCoders.LittleMonsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleMonster.app/LittleMonster";
+			};
+			name = Release;
+		};
+		F25C8CA51C48CA1400EC103A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LittleMonsterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HardCoders.LittleMonsterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LittleMonster;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F25C8CA61C48CA1400EC103A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LittleMonsterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HardCoders.LittleMonsterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LittleMonster;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F25C8C711C48CA1400EC103A /* Build configuration list for PBXProject "LittleMonster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25C8C9C1C48CA1400EC103A /* Debug */,
+				F25C8C9D1C48CA1400EC103A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F25C8C9E1C48CA1400EC103A /* Build configuration list for PBXNativeTarget "LittleMonster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25C8C9F1C48CA1400EC103A /* Debug */,
+				F25C8CA01C48CA1400EC103A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F25C8CA11C48CA1400EC103A /* Build configuration list for PBXNativeTarget "LittleMonsterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25C8CA21C48CA1400EC103A /* Debug */,
+				F25C8CA31C48CA1400EC103A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F25C8CA41C48CA1400EC103A /* Build configuration list for PBXNativeTarget "LittleMonsterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25C8CA51C48CA1400EC103A /* Debug */,
+				F25C8CA61C48CA1400EC103A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F25C8C6E1C48CA1400EC103A /* Project object */;
+}
