@@ -34,6 +34,12 @@
                                     <constraint firstAttribute="height" constant="78" id="ZZd-jN-Emo"/>
                                 </constraints>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="v5q-7m-8LH" customClass="MonsterImage" customModule="LittleMonster" customModuleProvider="target">
+                                <rect key="frame" x="191" y="340" width="297" height="219"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="219" id="3qc-vr-H8g"/>
+                                </constraints>
+                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="Euv-tU-fuM">
                                 <rect key="frame" x="203" y="39" width="186" height="40"/>
                                 <subviews>
@@ -60,12 +66,6 @@
                                     </imageView>
                                 </subviews>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="v5q-7m-8LH">
-                                <rect key="frame" x="191" y="340" width="297" height="219"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="219" id="3qc-vr-H8g"/>
-                                </constraints>
-                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" distribution="fillEqually" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="nXU-fW-RGo">
                                 <rect key="frame" x="205" y="112" width="190" height="70"/>
                                 <subviews>
@@ -140,9 +140,12 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="food" destination="5IF-hg-amB" id="AcC-5L-5ta"/>
-                        <outlet property="heart" destination="y8k-dw-Ons" id="kzX-oI-lBI"/>
+                        <outlet property="food" destination="5IF-hg-amB" id="5dp-eq-GWQ"/>
+                        <outlet property="heart" destination="y8k-dw-Ons" id="qRQ-aZ-BNq"/>
                         <outlet property="monsterImage" destination="v5q-7m-8LH" id="z9n-ji-ka6"/>
+                        <outlet property="penalty1" destination="n8n-1Z-ENt" id="XiZ-fV-B9p"/>
+                        <outlet property="penalty2" destination="dpA-br-jDI" id="hBk-vY-l5q"/>
+                        <outlet property="penalty3" destination="Rug-gR-G3h" id="pzo-Ic-sOk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
